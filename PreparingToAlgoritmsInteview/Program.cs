@@ -12,4 +12,6 @@ using PreparingToAlgoritmsInteview;
 //var x = new SortList_148();
 //var x = new BestTimeToBuyAndSellStock_121();
 //var x = new ConvertSortedArrayToBinarySearchTree_108();
-var x = new Can_Place_Flowers_605();
+//var x = new Can_Place_Flowers_605();
+//var x = new SummaryRanges_228();
+var x = new ContainsDuplicate_217();
