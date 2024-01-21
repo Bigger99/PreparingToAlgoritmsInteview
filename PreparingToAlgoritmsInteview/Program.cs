@@ -14,4 +14,7 @@ using PreparingToAlgoritmsInteview;
 //var x = new ConvertSortedArrayToBinarySearchTree_108();
 //var x = new Can_Place_Flowers_605();
 //var x = new SummaryRanges_228();
-var x = new ContainsDuplicate_217();
+//var x = new ContainsDuplicate_217();
+//var x = new PascalsTriangle_118();
+//var x = new PascalsTriangleII_119();
+var x = new BaseballGame_682();
