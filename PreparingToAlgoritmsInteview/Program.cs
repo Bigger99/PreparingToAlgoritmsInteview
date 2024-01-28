@@ -17,4 +17,5 @@ using PreparingToAlgoritmsInteview;
 //var x = new ContainsDuplicate_217();
 //var x = new PascalsTriangle_118();
 //var x = new PascalsTriangleII_119();
-var x = new BaseballGame_682();
+//var x = new BaseballGame_682();
+var x = new ContainsDuplicateII_219();
