@@ -18,39 +18,62 @@ internal class ConvertSortedArrayToBinarySearchTree_108
         var root = new TreeNode(nums[0]);
         var temp = root;
 
-        for (var i = 1; i < nums.Length; i++)
-        {
-            var nexNum = nums[i];
-            var isInserted = false;
+        //for (var i = 1; i < nums.Length; i++)
+        //{
+        //    var nexNum = nums[i];
+        //    var isInserted = false;
 
-            while (!isInserted)
-            {
-                if (nexNum >= temp.val)
-                {
-                    if (temp.right is null)
-                    {
-                        temp.right = new TreeNode(nexNum);
-                    }
-                    else
-                    {
-                        temp = temp.right;
-                    }
-                }
-                else
-                {
-                    if (temp.left is null)
-                    {
-                        temp.left = new TreeNode(nexNum);
-                    }
-                    else
-                    {
-                        temp = temp.right;
-                    }
-                }
-            }
+        //    while (!isInserted)
+        //    {
+        //        if (nexNum)
+        //        {
+        //            temp.val = item;
+        //            break;
+        //        }
+        //    }
+        //} 
 
-            temp = root;
-        }
+        //if (nums.Length <= 0)
+        //    return null;
+
+        //var root = new TreeNode(nums[0]);
+        //var temp = root;
+
+        //for (var i = 1; i < nums.Length; i++)
+        //{
+        //    var nexNum = nums[i];
+        //    var isInserted = false;
+
+        //    while (!isInserted)
+        //    {
+        //        if (nexNum >= temp.val)
+        //        {
+        //            if (temp.right is null)
+        //            {
+        //                temp.right = new TreeNode(nexNum);
+        //                isInserted = true;
+        //            }
+        //            else
+        //            {
+        //                temp = temp.right;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            if (temp.left is null)
+        //            {
+        //                temp.left = new TreeNode(nexNum);
+        //                isInserted = true;
+        //            }
+        //            else
+        //            {
+        //                temp = temp.right;
+        //            }
+        //        }
+        //    }
+
+        //    temp = root;
+        //}
 
         return root;
     }

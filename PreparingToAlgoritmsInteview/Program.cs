@@ -18,4 +18,6 @@ using PreparingToAlgoritmsInteview;
 //var x = new PascalsTriangle_118();
 //var x = new PascalsTriangleII_119();
 //var x = new BaseballGame_682();
-var x = new ContainsDuplicateII_219();
+//var x = new ContainsDuplicateII_219();
+//var x = new CrawlerLogFolder_1598();
+var x = new Majority_Element_169();
