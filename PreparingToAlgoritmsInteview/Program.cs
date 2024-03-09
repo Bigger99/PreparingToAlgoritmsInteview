@@ -20,4 +20,6 @@ using PreparingToAlgoritmsInteview;
 //var x = new BaseballGame_682();
 //var x = new ContainsDuplicateII_219();
 //var x = new CrawlerLogFolder_1598();
-var x = new Majority_Element_169();
+//var x = new Majority_Element_169();
+//var x = new JumpGame_55(); // рЕШИТЬ
+var x = new Sort_Colors_75();
