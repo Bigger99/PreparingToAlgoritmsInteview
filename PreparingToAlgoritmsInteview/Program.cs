@@ -23,4 +23,5 @@ using PreparingToAlgoritmsInteview;
 //var x = new Majority_Element_169();
 //var x = new JumpGame_55(); // рЕШИТЬ
 //var x = new Sort_Colors_75();
-var x = new Ugly_Number_263();
+//var x = new Ugly_Number_263();
+var x = new Happy_Number_202();
